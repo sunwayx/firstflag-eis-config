@@ -1,0 +1,13 @@
+server:
+   port: 18004
+
+spring:
+  rabbitmq:
+    host: 10.0.11.125
+    port: 5672
+    username: rabbitmq
+    password: 'rabbitmq'
+    virtual-host: vhost
+
+logging:
+  file: logs/mc-service.log
